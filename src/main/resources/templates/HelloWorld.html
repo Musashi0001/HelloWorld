@@ -3,11 +3,14 @@
 
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" th:href="@{/css/HelloWorld.css}">
 	<title>HelloWorld</title>
 </head>
 
 <body>
-	<h1><span th:text="${key}"></span></h1>
+	<div class="container">
+		<h1 th:text="${key}"></h1>
+	</div>
 </body>
 
 </html>
