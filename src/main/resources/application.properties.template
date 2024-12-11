@@ -1,0 +1,7 @@
+spring.application.name=HelloWorld
+
+spring.datasource.url=jdbc:mysql://localhost/yourdbname
+spring.datasource.username=usermane
+spring.datasource.password=password
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+mybatis.configuration.map-underscore-to-camel-case=true
